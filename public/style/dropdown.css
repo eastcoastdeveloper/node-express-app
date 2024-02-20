@@ -1,0 +1,44 @@
+.caret {
+  float: right;
+  transition: transform 0.2s;
+}
+
+.dd-menu {
+  border: 1px solid black;
+  width: 100%;
+  border-radius: 4px;
+  max-width: 250px;
+  position: absolute;
+  top: 50px;
+  max-height: 200px;
+  overflow: scroll;
+  background-color: whitesmoke;
+}
+
+.menu-value .item {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.menu-value .item:hover {
+  background-color: darkgray;
+  color: white;
+}
+
+.rotate-caret {
+  transform: rotate(90deg);
+}
+
+.selector {
+  cursor: pointer;
+  font: normal 20px sans-serif;
+  padding: 5px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.dd-visibility {
+  display: none;
+}

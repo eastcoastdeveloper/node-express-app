@@ -1,0 +1,172 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  overflow: auto;
+  padding: 0 10px;
+  height: 40px;
+  position: relative;
+}
+
+header>div {
+  float: left;
+  line-height: 40px !important;
+}
+
+header>nav {
+  position: absolute;
+  font-size: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+
+header>nav a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.2s;
+}
+
+header>nav a:hover {
+  color: lightgrey;
+}
+
+header .logo {
+  font: bold 16px sans-serif;
+}
+
+.wrapper {
+  height: calc(100% - 90px);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+main {
+  max-width: 1200px;
+  border-radius: 6px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+footer {
+  height: 25px;
+}
+
+footer>div {
+  font: normal 12px sans-serif;
+  text-align: center;
+  line-height: 26px;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+/* h1 {
+  margin: 30px 0 20px 0;
+  font-size: 24px;
+} */
+
+.table-contents {
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid black;
+  overflow-x: scroll;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tbody {
+  font: normal 14px sans-serif;
+}
+
+table tbody tr {
+  cursor: pointer;
+}
+
+table tbody tr:hover {
+  background-color: #333 !important;
+  color: white;
+}
+
+table thead th {
+  font: bold 14px sans-serif;
+  text-align: left;
+  padding: 5px;
+  width: 100px;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+table tbody tr td {
+  white-space: nowrap;
+}
+
+table tr td {
+  padding: 4px 6px;
+}
+
+table div {
+  max-width: 100px;
+}
+
+table img {
+  width: 100%;
+}
+
+main .return {
+  cursor: pointer;
+}
+
+.country-data {
+  max-width: 500px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.details {
+  margin-top: 80px;
+}
+
+.pagination {
+  position: sticky;
+  left: 0;
+  margin: 10px 0 0 0;
+  text-align: center;
+  overflow: auto;
+  border-top: 1px solid black;
+  padding: 10px 0;
+}
+
+.pages {
+  font: normal 12px sans-serif;
+}
+
+.pages span {
+  background-color: rgba(173, 216, 230, .7);
+  border-radius: 2px;
+  padding: 2px 5px;
+  cursor: pointer;
+}
+
+.pages span:not(:last-child) {
+  margin-right: 4px;
+}
